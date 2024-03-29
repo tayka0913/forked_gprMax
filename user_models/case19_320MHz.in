@@ -17,8 +17,8 @@
 #cylinder: 1 1.5 0 1 1.5 0.005 0.5 free_space
 
 #python:
-for i in range(1, 100):
-    print('#snapshot: 0 0 0 2 5.5 0.005 0.005 0.005 0.005 {} snapshot{}'.format((i)*1e-9, i))
+for i in range(1, 20):
+    print('#snapshot: 0 0 0 2 5.5 0.005 0.005 0.005 0.005 {} snapshot{}'.format((i)*5e-9, i))
 #end_python:
 
 #geometry_view: 0 0 0 2 5.5 0.005 0.005 0.005 0.005 case19_320MHz_2D n
