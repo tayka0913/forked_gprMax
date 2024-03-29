@@ -1,0 +1,18 @@
+#title: case7
+#domain: 1.2 2.5 0.005 
+#dx_dy_dz: 0.005 0.005 0.005 
+#time_window: 60e-9 
+
+#material: 6 0 1 0 concrete
+#material: 4.5 0 1 0 brick
+#material: 2.5 0 1 0 soil
+
+#waveform: ricker 1 300e6 my_ricker
+#hertzian_dipole: z 0.580 2 0 my_ricker
+#rx: 0.620 2 0 r1 Ex Ey Ez Hx Hy Hz Ix Iy Iz 
+
+#box: 0 0 0 1.2 2 0.005 soil
+#cylinder: 0.6 0.7 0 0.6 0.7 0.005 0.5 free_space
+#box: 0 1.5 0 1.2 1.9 0.005 concrete
+
+#geometry_view: 0 0 0 1.2 2.5 0.005 0.005 0.005 0.005 case7_2D n

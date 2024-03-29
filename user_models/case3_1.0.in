@@ -1,0 +1,22 @@
+#title: case3
+#domain: 1 2 0.002 
+#dx_dy_dz: 0.002 0.002 0.002 
+#time_window: 3e-9 
+
+#material: 6 0 1 0.2 concrete
+#material: 4.5 0 1 0 brick
+
+#waveform: ricker 1 1.5e9 my_ricker
+#hertzian_dipole: z 0.480 2 0 my_ricker
+#rx: 0.520 2 0
+
+#box: 0 0 0 1 0.3 0.002 free_space
+#box: 0 0.3 0 1 0.5 0.002 concrete
+#box: 0 0.5 0 1 0.8 0.002 free_space
+#box: 0 0.8 0 1 1 0.002 concrete
+#box: 0 1 0 1 1.3 0.002 free_space
+#box: 0 1.3 0 1 1.5 0.002 concrete
+#box: 0 1.5 0 1 1.8 0.002 free_space
+#box: 0 1.8 0 1 2 0.002 concrete
+
+#geometry_view: 0 0 0 1 2 0.002 0.002 0.002 0.002 case3_1.0_2D n

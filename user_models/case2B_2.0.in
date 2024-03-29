@@ -1,0 +1,20 @@
+#title: case2
+#domain: 1 2.5 0.005 
+#dx_dy_dz: 0.005 0.005 0.005 
+#time_window: 60e-9 
+
+#material: 6 0 1 0 concrete
+#material: 4.5 0 1 0 brick
+#material: 10 0 1 0 soil
+
+#waveform: ricker 1 300e6 my_ricker
+#hertzian_dipole: z 0.480 2 0 my_ricker
+#rx: 0.520 2 0
+#src_steps: 0.005 0 0
+#rx_steps: 0.005 0 0
+
+#box: 0 0 0 1 0.5 0.005 brick
+#box: 0 0.5 0 1 0.8 0.005 free_space
+#box: 0 0.8 0 1 1 0.005 concrete
+#box: 0 1 0 1 2 0.005 brick
+

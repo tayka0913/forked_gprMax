@@ -1,0 +1,18 @@
+#title: soil with void in 320MHz
+#domain: 2 5.5 0.005 
+#dx_dy_dz: 0.005 0.005 0.005 
+#time_window: 100e-9 
+
+#material: 11 0 1 0 concrete_320MHz
+#material: 2 0 1 0 wood
+#material: 8.14 0 1 0 soil_220MHz
+#material: 6.25 0 1 0 soil_320MHz
+
+#waveform: ricker 1 320e6 my_ricker
+#hertzian_dipole: z 0.980 5 0 my_ricker
+#rx: 1.020 5 0 r1 Ex Ey Ez Hx Hy Hz Ix Iy Iz 
+
+#box: 0 0 0 2 5 0.005 soil_320MHz
+#box: 0.5 1 0 1.5 2 0.005 free_space
+
+#geometry_view: 0 0 0 2 5.5 0.005 0.005 0.005 0.005 case18_320MHz_B_2D n

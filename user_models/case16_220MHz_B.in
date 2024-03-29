@@ -1,0 +1,19 @@
+#title: soil with void in 220MHz Bscan
+#domain: 2 3.5 0.005 
+#dx_dy_dz: 0.005 0.005 0.005 
+#time_window: 80e-9 
+
+#material: 12 0 1 0 concrete_220MHz
+#material: 11 0 1 0 concrete_320MHz
+#material: 8.14 0 1 0 soil_220MHz
+#material: 6.25 0 1 0 soil_320MHz
+
+#waveform: ricker 1 220e6 my_ricker
+#hertzian_dipole: z 0.040 3 0 my_ricker
+#rx: 0.080 3 0 r1 Ex Ey Ez Hx Hy Hz Ix Iy Iz 
+#src_steps: 0.02 0 0
+#rx_steps: 0.02 0 0
+
+#box: 0 0 0 2 3 0.005 soil_220MHz
+#box: 0.5 0.5 0 1.5 1 0.005 free_space
+#box: 0 2 0 2 2.5 0.005 concrete_220MHz
