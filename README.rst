@@ -1,3 +1,5 @@
+오픈소스 gprMax코드를 복제하고 이후 시뮬레이션을 업데이트 하는 레스퍼토리 입니다.
+
 .. image:: https://readthedocs.org/projects/gprmax/badge/?version=latest
     :target: http://docs.gprmax.com/en/latest/?badge=latest
     :alt: Documentation Status
