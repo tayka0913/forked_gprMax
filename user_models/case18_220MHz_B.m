@@ -99,4 +99,4 @@ scatter(t_calculation2,y_t_calculation2,50,[0.8500 0.3250 0.0980],"filled")%í™©í
 hold off;
 fontsize(16,"points")
 
-
+case18_220MHz_B_normalized=full_norm;

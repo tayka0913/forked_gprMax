@@ -8,7 +8,7 @@ Fs=1/dt ;%샘플링 주파수
 t_max = Time; % 시간의 최대 값 (단위: 초)
 
 %h5disp('case12_220MHz.out');
-Ez = h5read('case18_320MHz_A.out', '/rxs/rx1/Ez');
+Ez = h5read('case20_320MHz.out', '/rxs/rx1/Ez');
 Eztr = Ez.';
 
 Ez2 = h5read('case18_320MHz_B.out', '/rxs/rx1/Ez');

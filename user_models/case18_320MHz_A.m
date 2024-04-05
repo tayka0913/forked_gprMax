@@ -99,4 +99,4 @@ hold on;
 hold off;
 fontsize(16,"points")
 
-
+case18_320MHz_A_normalized=full_norm;

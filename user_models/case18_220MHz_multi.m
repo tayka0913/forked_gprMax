@@ -25,7 +25,7 @@ Eztr6 = Ez6.';
 %figure
 figure;
 subplot(6, 1, 1);
-plot(time, Eztr, 'r', 'LineWidth', 2);
+plot(time, Eztr ,'r', 'LineWidth', 2);
 xlabel('Time (s)');
 ylabel('Ez');
 % title('rx1에서 수신된 신호');

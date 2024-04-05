@@ -39,7 +39,7 @@ tr5 =t5*2;
 
 
 % 수신2 생성
-end_index2 = find(time <= 11.4e-9, 1, 'last'); % 10 ns의 인덱스 찾기
+end_index2 = find(time <= 15e-9, 1, 'last'); % 10 ns의 인덱스 찾기
 Eztr2= Eztr;
 Eztr2(1:end_index2) = 0;
 % 수신3 생성
@@ -73,7 +73,7 @@ Eztr_norm2 = Eztr2 / max_abs_value2;
 max_abs_value3 = max(abs(Eztr3));
 Eztr_norm3 = Eztr3 / max_abs_value3;
 
-end_index2 = find(time <= 11.4e-9, 1, 'last'); 
+end_index2 = find(time <= 15e-9, 1, 'last'); 
 Eztr_norm1(end_index2:end) = 0;
 end_index3 = find(time <= 38e-9, 1, 'last'); 
 Eztr_norm2(end_index3:end) = 0;
@@ -108,3 +108,4 @@ scatter(t_calculation4,y_t_calculation4,50,[0.4940 0.1840 0.5560],"filled")%보�
 hold off;
 fontsize(16,"points")
 
+case18_220MHz_C_50cm_normalized=full_norm;

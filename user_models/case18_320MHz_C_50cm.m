@@ -107,4 +107,4 @@ scatter(t_calculation4,y_t_calculation4,50,[0.4940 0.1840 0.5560],"filled")%ë³´ë
 % scatter(t_calculation5,y_t_calculation5,100,[0.4940 0.1840 0.5560],"filled")
 hold off;
 fontsize(16,"points")
-
+case18_320MHz_C_50cm_normalized=full_norm;
